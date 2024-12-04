@@ -8,6 +8,6 @@
   z-index: 100;
 }
 .blur-content {
-  fill-opacity: blur(2px);
+  fill-opacity: blur(px);
   transition: filter 0.3s ease-out;
 }

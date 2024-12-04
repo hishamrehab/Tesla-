@@ -6,25 +6,42 @@ import HomePage from "./pages/HomePage.jsx";
 import ModelXPage from "./pages/ModelXPage.jsx";
 import ModelSPage from "./pages/ModelSPage.jsx";
 import CyberTruckPages from "./pages/CybertruckPage.jsx";
+import App from "./App.jsx";
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage />
+    element: (
+      <App>
+        <HomePage />
+      </App>
+    ),
   },
   {
     path: "/model_s",
-    element: <ModelSPage />
+    element: (
+      <App>
+        <ModelSPage />
+      </App>
+    )
   },
-  // 
+
   {
     path: "/model_x",
-    element: <ModelXPage />
+    element: (
+      <App>
+        <ModelXPage />
+      </App>
+    )
   },
   {
     path: "/cybertruck",
-    element: <CyberTruckPages />
+    element: (
+      <App>
+        <CyberTruckPages />
+      </App>
+    )
   }
 ]);
 createRoot(document.getElementById("root"))

@@ -1,10 +1,9 @@
-import Header from "../components/header/Header";
+import HomeSectionVideo from "../components/HomeSectionVideo/HomeSectionVideo";
 
 export default function HomePage() {
     return (
-        <main className="content">
-            <Header />
-            <h1>home page</h1>
-        </main>
+        <>
+            <HomeSectionVideo />
+        </>
     )
 }

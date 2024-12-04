@@ -1,3 +1,9 @@
 :root {
   --hover-background: rgb(242, 242, 242);
 }
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  color: white;
+}
