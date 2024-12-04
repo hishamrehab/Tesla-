@@ -17,5 +17,5 @@ nav .headerList li:first-of-type {
 }
 
 nav .headerList li:hover {
-  background-color: rgb(242, 242, 242);
+  background-color: var(--hover-background);
 }
