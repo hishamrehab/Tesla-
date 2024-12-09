@@ -3,15 +3,11 @@ import ImageBackgroundSection from "../components/ImageBackroundSection/ImageBac
 import cybertruckImage from "../assets/pexels-hyundaimotorgroup1.jpg"
 export default function CyberTruckPages() {
     return (
-        <div className="container">
-            <section className="section">
-                <ImageBackgroundSection
-                    header="Cybertruck"
-                    description="View inventory"
-                    backgroundImage={cybertruckImage} />
-            </section>
-        </div>
-
-
+        <section className="section">
+            <ImageBackgroundSection
+                header="Cybertruck"
+                description="View inventory"
+                backgroundImage={cybertruckImage} />
+        </section>
     )
-}
+} 
