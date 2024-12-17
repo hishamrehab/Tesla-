@@ -13,7 +13,6 @@ nav.sidebar button {
   position: absolute;
   top: 0;
   right: 0;
-  /* margin: 10px; */
   cursor: pointer;
   background: none;
   border: none;
@@ -23,17 +22,13 @@ nav.sidebar button {
 }
 
 nav.sidebar ul {
-  margin-top: 20px;
+  margin-top: 40px;
   list-style-type: none;
 }
 
 nav.sidebar ul li {
   padding: 10px;
   cursor: pointer;
-}
-
-nav.sidebar ul li:hover {
-  background-color: var(--hover-background);
 }
 
 nav.sidebar ul li:hover,

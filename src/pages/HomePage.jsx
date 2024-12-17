@@ -7,10 +7,11 @@ import Cybertruck from "../assets/pexels-hyundaimotorgroup.jpg";
 
 export default function HomePage() {
     return (
-        <>
+        <div className="container">
             <section className="section">
                 <HomeSectionVideo />
             </section>
+
             <section className="section">
                 <ImageBackgroundSection
                     header="Model S"
@@ -35,6 +36,6 @@ export default function HomePage() {
                     backgroundImage={Cybertruck}
                 />
             </section>
-        </>
+        </div>
     )
 }
